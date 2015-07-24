@@ -8,7 +8,7 @@ Note: Don't just clone and build. If you plan to use this build, at least change
 
 Running the container.
 
-    docker run --name mariadb -d -p 3306:3307 mariadb-server
+    docker run --name mariadb -d -p 3307:3306 mariadb-server
 
 Sample connection from local machine.
 
